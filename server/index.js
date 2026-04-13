@@ -8,7 +8,14 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 
-app.use(cors());
+// Deployment CORS Configuration
+const corsOptions = {
+  origin: '*', // For production, you can replace this with your Vercel URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Debug Logger

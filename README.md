@@ -89,10 +89,30 @@ npm run dev
 - **Frontend**: [http://localhost:5173](http://localhost:5173)
 - **Backend**: [http://localhost:5001](http://localhost:5001)
 
+## 🚀 Deployment Guide
+
+### 1. Backend (Render / Railway)
+1. Create a new **Web Service** on [Render](https://render.com/).
+2. Connect your GitHub repository.
+3. Set **Root Directory** to `server`.
+4. Set **Build Command** to `npm install`.
+5. Set **Start Command** to `npm start`.
+6. Add **Environment Variables**:
+   - `JWT_SECRET`: Your secure secret key.
+   - `PORT`: (Render sets this automatically).
+
+### 2. Frontend (Vercel)
+1. Create a new project on [Vercel](https://vercel.com/).
+2. Connect your GitHub repository.
+3. Set **Root Directory** to `client`.
+4. Set **Framework Preset** to `Vite`.
+5. Add **Environment Variables**:
+   - `VITE_API_URL`: Your live backend URL from Render (e.g., `https://your-backend.onrender.com/api`).
+
 ## 🎥 Submission Details
-- **Developer**: [Kamran Ahmad]
+- **Developer**: Kamran Ahmad
 - **Submission Date**: April 13, 2026
-- **Live Demo**: [Link to Video/Deployment]
+- **Live Repo**: [https://github.com/kamranahmad786/grovio-notes](https://github.com/kamranahmad786/grovio-notes)
 
 ---
 *Built with ❤️ as part of the Grovio AI SDE Assignment.*
