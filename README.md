@@ -2,7 +2,9 @@
 
 Grovio Notes is a professional, full-stack Markdown-based note-taking application designed for productivity and seamless user experience. It features real-time split-screen previews, secure multi-user authentication, and advanced note management tools.
 
-![Grovio Notes Logo](./client/public/favicon.png)
+<p align="center">
+  <img src="./client/public/favicon.png" width="120" alt="Grovio Notes Logo" />
+</p>
 
 ## 🚀 Features
 
