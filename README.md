@@ -86,8 +86,8 @@ Start both the frontend and backend concurrently from the root directory:
 ```bash
 npm run dev
 ```
-- **Frontend**: [http://localhost:5173](http://localhost:5173)
-- **Backend**: [http://localhost:5001](http://localhost:5001)
+- **Frontend**: [https://grovio-notes.vercel.app/](https://grovio-notes.vercel.app/)
+- **Backend**: [https://grovio-notes.onrender.com](https://grovio-notes.onrender.com)
 
 ## 🚀 Deployment Guide
 
@@ -112,7 +112,7 @@ npm run dev
 ## 🎥 Submission Details
 - **Developer**: Kamran Ahmad
 - **Submission Date**: April 13, 2026
-- **Live Repo**: [https://github.com/kamranahmad786/grovio-notes](https://github.com/kamranahmad786/grovio-notes)
+- **Live Repo**: [https://grovio-notes.vercel.app/](https://grovio-notes.vercel.app/)
 
 ---
 *Built with ❤️ as part of the Grovio AI SDE Assignment.*
